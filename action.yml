@@ -5,6 +5,8 @@ runs:
   steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        repository: StorFollo-IKT/slapd-ad-emulator
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
